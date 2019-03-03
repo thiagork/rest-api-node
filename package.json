@@ -1,27 +1,17 @@
 {
-  "name": "rest-api-node",
+  "name": "2.5-rest-and-api-endpoints",
   "version": "1.0.0",
-  "description": "My first (RESTful) API using Node.js",
-  "main": "index.js",
+  "main": "rest-api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thiagork/rest-api-node.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thiagork/rest-api-node/issues"
-  },
-  "homepage": "https://github.com/thiagork/rest-api-node#readme",
-  "devDependencies": {
-    "eslint": "^5.14.1"
-  },
+  "devDependencies": {},
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "morgan": "^1.9.1"
-  }
+    "uuid": "^3.3.2"
+  },
+  "description": ""
 }
